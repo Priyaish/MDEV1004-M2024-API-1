@@ -14,7 +14,6 @@ import passportLocal from 'passport-local';
 import createMemoryStore from 'memorystore';
 const MemoryStore = createMemoryStore(session);
 
-
 // modules for JWT support
 import cors from 'cors';
 import passportJWT from 'passport-jwt';
